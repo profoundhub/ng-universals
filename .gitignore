@@ -20,6 +20,8 @@ $RECYCLE.BIN/
 # =========================
 # Operating System Files
 # =========================
+/4me
+.private
 
 # OSX
 # =========================
@@ -45,3 +47,24 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+/__build__
+/__server_build__
+/node_modules
+/typings
+/tsd_typings/
+npm-debug.log
+
+/dist/
+
+.idea
+*.ngfactory.ts
+*.css.shim.ts
+
+.DS_Store
+
+webpack.records.json
+
+/npm-debug.log.*
+
+morgan.log
